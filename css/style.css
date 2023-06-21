@@ -6,6 +6,7 @@ body {
     text-align: center;
     color: #40514e;
     font-family: "Merriweather", serif;
+    background-color: #E4F9F5;
   }
   .topcontainer {
     background-color: aquamarine;
@@ -21,6 +22,7 @@ body {
   .toptext {
     color: #66bfbf;
   }
+
   .toptext2 {
     color: #66bfbf;
     font-weight: normal;
@@ -90,6 +92,16 @@ body {
   }
   .profile {
     margin-top: 100px;
+
+  }
+  .col-md-6{
+      transition: transform 0.3s;
+    
+
+    }
+    .col-md-6:hover{
+    transform: scale(1.1);
+
   }
   hr {
     border: dotted;
